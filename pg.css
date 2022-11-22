@@ -1,0 +1,193 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: url("backgroundblur.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+}
+#brand_name {
+    font-size:larger;
+}
+#pg-paragraph {
+    position:relative;
+    top:120px;
+    font-size:17px;
+}
+#pg-paragraph a {
+    text-decoration: underline;
+    color:black;
+}
+#name {
+    font-family: 'Poppins', sans-serif;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    background-color:rgb(18, 15, 27);
+    border-radius: 20px;
+    height:80px;
+    width:98%;
+}
+#footer a {
+    text-decoration: none;
+    color:rgb(96, 15, 167);
+}
+.linkname {
+    position:relative;
+    bottom:10px;
+}
+#ilinkname {
+    position:relative;
+    top:-34.5px;
+}
+#slinkname {
+    position:relative;
+    top:-35px;
+    left:5px;
+}
+#imagerow {
+    position: relative;
+    top:150px;
+}
+.spanspace {
+    padding-left:30px;
+}
+#bigmiddle {
+    position: relative;
+    top:30px;
+}
+#notice {
+    position: relative;
+    top:200px;
+    font-size:24px;
+}
+.toplinks {
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+.hw_thing {
+    font-size:20px;
+    margin-left:200px;
+}
+#far_left {
+    float:left !important;
+}
+#far_right {
+    float: right !important;
+}
+#gitlink {
+    position:relative;
+    bottom:35px;
+}
+.gitwhole {
+    margin-left:50px;
+}
+@media screen and (max-width : 430px) {
+    .toplinks {
+        font-size:15px;
+    }
+    .hw_thing{
+        font-size:15px;
+        margin-left:30px;
+    }
+    #name {
+        font-size:30px;
+    }
+    #footer{
+        height:10%;
+        width:95%;
+        position:fixed;
+        bottom:0;
+    }
+    #footer a {
+        font-size:12px;
+        position:relative;
+        bottom:8px;
+    }
+    .gitwhole {
+        position:relative;
+        right:130px;
+        top:30px !important;
+    }
+    .iwhole {
+        position:relative;
+        bottom:58px !important;
+        left:50px;
+    }
+    #ilinkname {
+        position:relative;
+        right:15px;
+    }
+    .swhole {
+        position:relative;
+        top:29px;
+        margin-right:100px;
+        left:50px;
+    }
+    .bottomimg {
+        width:20px;
+    }
+    #bigmiddle {
+        position:relative;
+        right:12px;
+        margin-bottom:50px;
+    }
+    #notice {
+        margin-bottom:67px;
+    }
+    #bottomimgpg {
+        position: relative;
+        right:12px;
+    }
+    #gitlink {
+        color:rgb(18, 15, 27);
+    }
+    #slinkname {
+        color:rgb(18, 15, 27);
+    }
+    #ilinkname {
+        color:rgb(18, 15, 27);
+    }
+}
+@media only screen and (min-width:450px) and (max-width:900px) {
+    #leftimgpg {
+        position:relative;
+        right:120px;
+        width:230px !important;
+    }
+    #bigmiddle {
+        position:relative;
+        right:135px;
+    }
+    #bottomimgpg {
+        position:relative;
+        bottom:290px;
+        left:265px;
+        width: 230px !important;
+    }
+    #notice {
+        margin-bottom:100px;
+    }
+    .swhole {
+        margin-right:80px;
+    }
+    .gitwhole {
+        margin-right:20px;
+    }
+    .iwhole {
+        position:relative;
+        right:70px;
+    }
+    #gitlink {
+        position: relative;
+        bottom:35px;
+        margin-left:0px;
+    }
+}
+hr {
+    color: white;
+}

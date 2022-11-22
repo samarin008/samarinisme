@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: url("background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+}
+#brand_name {
+    font-size:larger;
+}
+#main-paragraph {
+    position:relative;
+    top:120px;
+    font-size:18px;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    background-color:rgb(18, 15, 27);
+    border-radius: 20px;
+    height:80px;
+    width:98%;
+}
+#footer a {
+    text-decoration: none;
+    color:rgb(96, 15, 167);
+}
+.linkname {
+    position:relative;
+    bottom:10px;
+}
+#ilinkname {
+    position:relative;
+    top:-34.5px;
+}
+#slinkname {
+    position:relative;
+    top:-35px;
+    left:5px;
+}
+.burst {
+    font-size:40px;
+    font-weight: 500;
+    position: relative;
+    top:200px;
+}
+.skills {
+    padding-left:30px;
+}
+.middle {
+    padding-left:30px;
+}
+#thingsido {
+    font-size:18px;
+    position: relative;
+    right:15px;
+}
+.toplinks {
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+.hw_thing {
+    font-size:20px;
+    margin-left:200px;
+}
+#far_left {
+    float:left !important;
+}
+#far_right {
+    float: right !important;
+}
+hr {
+    color:white;
+}
+#gitlink {
+    position: relative;
+    bottom:35px;
+    margin-left:10px;
+}
+.gitwhole {
+    margin-left:80px;
+}
+@media screen and (max-width : 430px) {
+    .toplinks {
+        font-size:15px;
+    }
+    .hw_thing{
+        font-size:15px;
+        margin-left:30px;
+    }
+    .burst {
+        position: relative;
+        top:220px;
+        font-size:25px;
+    }
+    #name {
+        font-size:30px;
+    }
+    #footer{
+        height:10%;
+        width:95%;
+        position:fixed;
+        bottom:0;
+    }
+    #footer a {
+        font-size:12px;
+        position:relative;
+        bottom:8px;
+    }
+    .gitwhole {
+        position:relative;
+        right:140px;
+        top:30px !important;
+    }
+    .iwhole {
+        position:relative;
+        bottom:55px !important;
+        left:50px;
+    }
+    #ilinkname {
+        position:relative;
+        right:15px;
+    }
+    .swhole {
+        position:relative;
+        top:29px;
+        margin-right:100px;
+        left:50px;
+    }
+    .bottomimg {
+        width:20px;
+    }
+    #gitlink {
+        color:rgb(18, 15, 27);
+    }
+    #slinkname {
+        color:rgb(18, 15, 27);
+    }
+    #ilinkname {
+        color:rgb(18, 15, 27);
+    }
+}
+@media only screen and (min-width:450px) and (max-width:900px) {
+    .burst {
+        position: relative;
+        top:200px;
+    }
+}
